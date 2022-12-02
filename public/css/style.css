@@ -18,6 +18,8 @@ h2 {
     font-family: titre;
     src: url(../font/Arlon-UltraBold.ttf);
 }
+
+/* FOOTER */
 .footeronep{
     display: flex;
     margin: auto;

@@ -143,5 +143,62 @@ h2 {
     width: 100%;
 }
 
-/* ---- SECTION 3 ---- */
+/* ---- SECTION 4 ---- */
 
+.section4 {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section4-box {
+    height: 90%;
+    width: 100%;
+}
+
+.section4-titre {
+    height: 20%;
+    text-align: center;
+}
+
+.section4-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section4-card {
+    height: 75%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.section4-card h3 {
+    font-family: titre;
+    color: #685BA6;
+    font-size: 25px;
+}
+
+.section4-card img {
+    width: 65px;
+}
+
+#croix {
+    width: 20px;
+}
+
+.section4-card button {
+    color: white;
+    background-color: #685BA6;
+    border: none;
+    height: 40px;
+    width: 100px;
+}

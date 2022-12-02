@@ -8,3 +8,9 @@
 button {
     cursor: pointer;
 }
+.footerone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+}

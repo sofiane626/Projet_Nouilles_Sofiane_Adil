@@ -8,6 +8,16 @@
 button {
     cursor: pointer;
 }
+h2 {
+    color: #685BA6;
+    font-size: 30px;
+    font-family: titre;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(../font/Arlon-UltraBold.ttf);
+}
 .footeronep{
     display: flex;
     margin: auto;
@@ -26,9 +36,19 @@ button {
 }
 .footernav{
     display: flex;
+    flex-direction: row;
     margin: auto;
     height: 50px;
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     max-width: 80%;
+    gap: 30px;
+}
+.footernavright ul{
+    display: flex;
+}
+.footernavright ul li{
+    display: flex;
+    text-decoration: none;
 }

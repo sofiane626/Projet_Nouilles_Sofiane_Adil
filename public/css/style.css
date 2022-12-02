@@ -72,7 +72,7 @@ h2 {
     display: flex;
 }
 .footerthree{
-    margin-bottom:200px;
+    margin-bottom:100px;
 }
 .footerthree #checkboxfooter{
     display: flex;
@@ -125,7 +125,7 @@ h2 {
 .footerfour{
     display: flex;
     margin: auto;
-    height: 100px;
+    height:100px;
     justify-content: space-between;
     align-items: center;
     max-width: 80%;
@@ -148,10 +148,20 @@ h2 {
 }
 .footersocialright ul li a{
     font-weight: bold;
-    color:black;
     text-decoration: none;
+    color:grey;
 }
 .footersocialleft{
     display: flex;
     color:black;
+}
+.footersocialright li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid grey;
+    border-radius: 50%;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
 }

@@ -34,6 +34,9 @@ h2 {
     align-items: center;
     max-width: 80%;
 }
+.footertwo hr{
+    opacity: 0.3;
+}
 .footernav{
     display: flex;
     margin: auto;
@@ -42,6 +45,9 @@ h2 {
     justify-content: space-between;
     align-items: center;
     max-width: 80%;
+}
+#h2nav{
+    font-size: 27px;
 }
 .footernavright{
     display: flex;
@@ -61,4 +67,42 @@ h2 {
 }
 .footernavleft{
     display: flex;
+}
+.footerthree #checkboxfooter{
+    display: flex;
+    margin:auto;
+    justify-content: start;
+    align-items: center;
+    width: 700px;
+    height: 200px;
+    background-color: #FCFCFC;
+    border: #707981 solid 1px;
+}
+.footerthree #checkboxfooter ::placeholder{
+    display: ;
+}
+#checkboxfooter{
+    text-align:start;
+}
+.footerthree #buttonfooter{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color: #6859A6;
+    border: #6859A6 solid 1px;
+    background-color: white;
+}
+.footerthree #buttonfooter:hover{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: #6859A6 solid 1px;
+    background-color:#6859A6 ;
 }

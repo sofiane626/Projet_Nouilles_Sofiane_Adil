@@ -8,9 +8,27 @@
 button {
     cursor: pointer;
 }
-.footerone{
+.footeronep{
     display: flex;
+    margin: auto;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    max-width: 90%;
+    max-width: 80%;
+}
+.footeroneh2{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.footernav{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
 }

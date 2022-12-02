@@ -68,18 +68,17 @@ h2 {
 .footernavleft{
     display: flex;
 }
+.footerthree{
+    margin-bottom:200px;
+}
 .footerthree #checkboxfooter{
     display: flex;
     margin:auto;
-    justify-content: start;
-    align-items: center;
     width: 700px;
     height: 200px;
     background-color: #FCFCFC;
     border: #707981 solid 1px;
-}
-.footerthree #checkboxfooter ::placeholder{
-    display: ;
+    border-radius: 5px;
 }
 #checkboxfooter{
     text-align:start;
@@ -105,4 +104,40 @@ h2 {
     color: white;
     border: #6859A6 solid 1px;
     background-color:#6859A6 ;
+}
+#lignesocial{
+    opacity: 0.2;
+    margin: auto;
+    width: 80%;
+}
+.footerfour{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+}
+#h2social{
+    font-size: 27px;
+}
+.footersocialright{
+    display: flex;
+}
+.footersocialright ul{
+    display: flex;
+    gap: 30px;
+}
+.footersocialright ul li{
+    display: flex;
+    text-decoration: none;
+}
+.footersocialright ul li a{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+.footersocialleft{
+    display: flex;
+    color:black;
 }

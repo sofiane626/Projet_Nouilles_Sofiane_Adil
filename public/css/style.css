@@ -18,6 +18,22 @@ h2 {
     font-family: titre;
     src: url(../font/Arlon-UltraBold.ttf);
 }
+.section6-p1{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+.section6-h21{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
 .section7{
     display: flex;
     flex-direction: column;

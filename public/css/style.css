@@ -100,11 +100,38 @@ h2 {
     align-items: center;
     font-family: titre;
     color: #685BA6;
+    overflow: hidden;
 }
 
 .section2-card img {
     width: 50px;
 }
+
+.section2-card:hover .animation {
+    animation: carré 2s alternate;
+    animation-iteration-count: 2;
+    transition: transform 0.25s ease-out;
+}
+
+
+@keyframes carré {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.section2-card>.animation::after {
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique';
+    display: block;
+    position: absolute;
+    top: 150px;
+}
+
+
 
 /* ---- SECTION 3 ---- */
 
@@ -136,6 +163,7 @@ h2 {
 .section3-card {
     height: 75%;
     width: 30%;
+    position: relative;
 }
 
 .section3-card img {
@@ -143,10 +171,40 @@ h2 {
     width: 100%;
 }
 
+.anim {
+    display: flex;
+    flex-direction: column;
+}
+
+.anim5 {
+    color: #685BA6;
+    font-family: titre;
+    font-size: 20px;
+}
+
+.anim {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section3-card:hover img {
+    opacity: 0.3;
+}
+
+.section3-card:hover .anim {
+    opacity: 1;
+}
+
 /* ---- SECTION 4 ---- */
 
 .section4 {
-    height: 70vh;
+    height: 90vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -164,7 +222,7 @@ h2 {
 }
 
 .section4-div {
-    height: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;

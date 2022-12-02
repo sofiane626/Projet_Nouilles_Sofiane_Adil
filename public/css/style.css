@@ -107,3 +107,38 @@ h2 {
 }
 
 /* ---- SECTION 3 ---- */
+
+.section3 {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section3-box {
+    height: 90%;
+    width: 100%;
+}
+
+.section3-titre {
+    height: 20%;
+    text-align: center;
+}
+
+.section3-div {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3-card {
+    height: 75%;
+    width: 30%;
+}
+
+.section3-card img {
+    object-fit: cover;
+    width: 100%;
+}

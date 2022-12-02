@@ -61,3 +61,23 @@ h2 {
     width: 120px;
     font-size: 16px;
 }
+
+/* ---- SECTION 1 ---- */
+
+.section2 {
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section2-box {
+    height: 90%;
+    width: 100%;
+}
+
+.section2-titre{
+    height: 20%;
+}
+

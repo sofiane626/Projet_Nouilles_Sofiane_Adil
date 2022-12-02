@@ -202,3 +202,14 @@ h2 {
     height: 40px;
     width: 100px;
 }
+
+/* ---- Header ---- */
+
+header {
+    background-image: url(../img/header.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: 10% 30%;
+    object-fit: cover;
+    background-size: 100%;
+}

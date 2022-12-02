@@ -41,6 +41,30 @@ h2 {
     flex-direction: column;
     justify-content: center;
 }
+.section5-div2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.section5-div2 button {
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.section5-p1 {
+    font-size: 25px;
+    font-family: titre;
+}
+
+.section5-p2 {
+    font-size: 20px;
+}
 
 /* SECTION6 */
 .section6{

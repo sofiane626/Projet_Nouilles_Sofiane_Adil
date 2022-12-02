@@ -9,6 +9,17 @@ button {
     cursor: pointer;
 }
 
+h2 {
+    color: #685BA6;
+    font-size: 30px;
+    font-family: titre;
+}
+
+@font-face {
+    font-family: titre;
+    src: url(../font/Arlon-UltraBold.ttf);
+}
+
 /* ---- SECTION 1 ---- */
 
 .section1 {
@@ -41,6 +52,12 @@ button {
     height: 100%;
 }
 
-.section1-div2 h2 {
+.section1-div2 button {
+    border-radius: 20px;
+    border: #685BA6 2px solid;
     color: #685BA6;
+    background-color: #675ba600;
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
 }

@@ -65,7 +65,7 @@ h2 {
 /* ---- SECTION 1 ---- */
 
 .section2 {
-    height: 70vh;
+    height: 50vh;
     width: 80%;
     margin: auto;
     display: flex;
@@ -77,7 +77,20 @@ h2 {
     width: 100%;
 }
 
-.section2-titre{
+.section2-titre {
     height: 20%;
+    text-align: center;
 }
 
+.section2-div {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2-card {
+    height: 75%;
+    border: solid 1px black;
+    width: 22%;
+}

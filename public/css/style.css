@@ -172,8 +172,8 @@ h2 {
 }
 
 .section4-card {
-    height: 75%;
-    width: 33%;
+    height: 90%;
+    width: 34%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,13 +203,104 @@ h2 {
     width: 100px;
 }
 
+.section4-prix {
+    font-size: 30px;
+    color: rgb(47, 47, 47);
+}
+
 /* ---- Header ---- */
 
 header {
-    background-image: url(../img/header.jpg);
-    height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../img/header.jpg);
+    height: 80vh;
     width: 100%;
     background-position: 10% 30%;
     object-fit: cover;
     background-size: 100%;
+}
+
+.croix {
+    font-size: 25px;
+}
+
+nav {
+    height: 20%;
+}
+
+.header-box {
+    height: 100%;
+}
+
+.footernav {
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+}
+
+#h2nav {
+    font-size: 27px;
+    color: white;
+}
+
+.footernavright {
+    display: flex;
+}
+
+.footernavright ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footernavright ul li {
+    display: flex;
+    text-decoration: none;
+}
+
+.footernavright ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footernavleft {
+    display: flex;
+}
+
+.header-box2 {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-box2 h1 {
+    font-size: 70px;
+    font-family: titre;
+    color: rgb(62, 62, 62);
+}
+
+.header-box2 button {
+    border: none;
+    border-radius: 20px;
+    background-color: #685BA6;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.header-div {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+
+#header-p {
+    letter-spacing: 4px;
+    font-size: 25px;
 }

@@ -51,9 +51,12 @@ h2 {
 }
 .footernavright{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footernavright ul{
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .footernavright ul li{
@@ -70,6 +73,15 @@ h2 {
 }
 .footerthree{
     margin-bottom:200px;
+}
+.footerthree #checkboxfooter{
+    display: flex;
+    margin:auto;
+    width: 700px;
+    height: 200px;
+    background-color: #FCFCFC;
+    border: #707981 solid 1px;
+    border-radius: 5px;
 }
 .footerthree #checkboxfooter{
     display: flex;
@@ -123,9 +135,11 @@ h2 {
 }
 .footersocialright{
     display: flex;
+    align-items: center;
 }
 .footersocialright ul{
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .footersocialright ul li{

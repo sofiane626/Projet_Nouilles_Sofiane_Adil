@@ -140,22 +140,10 @@ h2 {
 .footersocialright ul{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 .footersocialright ul li{
-    display: flex;
     text-decoration: none;
-}
-.footersocialright ul li a{
-    font-weight: bold;
-    text-decoration: none;
-    color:grey;
-}
-.footersocialleft{
-    display: flex;
-    color:black;
-}
-.footersocialright li{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,4 +152,13 @@ h2 {
     padding: 20px;
     width: 30px;
     height: 30px;
+}
+.footersocialright ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color:grey;
+}
+.footersocialleft{
+    display: flex;
+    color:grey;
 }

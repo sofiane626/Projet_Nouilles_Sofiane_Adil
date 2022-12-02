@@ -62,7 +62,7 @@ h2 {
     font-size: 16px;
 }
 
-/* ---- SECTION 1 ---- */
+/* ---- SECTION 2 ---- */
 
 .section2 {
     height: 50vh;
@@ -91,6 +91,17 @@ h2 {
 
 .section2-card {
     height: 75%;
-    border: solid 1px black;
+    border: solid 1px rgba(0, 0, 0, 0.495);
     width: 22%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: titre;
+    color: #685BA6;
+}
+
+.section2-card img {
+    width: 50px;
 }

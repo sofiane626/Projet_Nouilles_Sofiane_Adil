@@ -456,14 +456,14 @@ nav {
     }
 
     .section2 {
-        height: 100vh !important;
+        height: 150vh !important;
     }
 
     .section2-div {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 200%;
+        height: 80%;
     }
 
     .section2-card {

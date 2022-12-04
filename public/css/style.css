@@ -125,12 +125,11 @@ h2 {
 }
 
 .section2-card>.animation::after {
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique';
+    content: '';
     display: block;
     position: absolute;
-    top: 150px;
+    margin-top: 150px;
 }
-
 
 
 /* ---- SECTION 3 ---- */
@@ -361,4 +360,145 @@ nav {
 #header-p {
     letter-spacing: 4px;
     font-size: 25px;
+}
+
+/* -----MEDIA QUERY----- */
+
+@media screen and (max-width: 1024px) {
+    .section1-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1-div1 {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section1-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1-div1 {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section1 {
+        height: 60vh !important;
+    }
+
+    .section1-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footernav {
+        height: 60vh !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footernavright {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        height: 80% !important;
+    }
+
+    .footernavright ul {
+        height: 90% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footernavright ul a {
+        color: black !important;
+        font-size: 25px !important;
+    }
+
+    .header-div {
+        display: none;
+    }
+
+    .section1-div1 {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 175%;
+    }
+
+    .section2 {
+        height: 100vh !important;
+    }
+
+    .section2-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200%;
+    }
+
+    .section2-card {
+        width: 75% !important;
+    }
+
+    .section3 {
+        height: 100vh !important;
+    }
+
+    .section3-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3-card {
+        width: 40% !important;
+    }
+
+    .section4 {
+        height: 200vh !important;
+    }
+
+    .section4-titre {
+        height: 10% !important;
+    }
+
+    .section4-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4-card {
+        width: 70% !important;
+    }
 }

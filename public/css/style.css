@@ -585,7 +585,7 @@ h2 {
     font-size: 27px;
 }
 .footernavright{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -604,6 +604,7 @@ h2 {
 }
 .footernavleft{
     display: flex;
+    margin: auto;
 }
 .footerthree{
     margin-bottom:100px;
@@ -940,7 +941,7 @@ h2 {
 }
 .footernavleft{
     display: flex;
-    margin-left: 150px;
+    margin: auto;
 }
 .footerthree{
     margin-bottom:100px;

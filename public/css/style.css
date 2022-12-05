@@ -297,26 +297,26 @@ nav {
     max-width: 80%;
 }
 
-#h2nav {
+#h2nav2 {
     font-size: 27px;
     color: white;
 }
 
-.footernavright {
+.footernavright2 {
     display: flex;
 }
 
-.footernavright ul {
+.footernavright2 ul {
     display: flex;
     gap: 30px;
 }
 
-.footernavright ul li {
+.footernavright2 ul li {
     display: flex;
     text-decoration: none;
 }
 
-.footernavright ul li a {
+.footernavright2 ul li a {
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -419,7 +419,7 @@ nav {
         justify-content: center;
     }
 
-    .footernavright {
+    .footernavright2 {
         display: flex;
         flex-direction: column !important;
         align-items: center;
@@ -427,7 +427,7 @@ nav {
         height: 80% !important;
     }
 
-    .footernavright ul {
+    .footernavright2 ul {
         height: 90% !important;
         display: flex;
         flex-direction: column;
@@ -435,7 +435,7 @@ nav {
         justify-content: center;
     }
 
-    .footernavright ul a {
+    .footernavright2 ul a {
         color: black !important;
         font-size: 25px !important;
     }
